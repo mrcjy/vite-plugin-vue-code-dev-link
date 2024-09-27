@@ -1,0 +1,20 @@
+{
+    "name": "vite-plugin-vue-code-dev-link",
+    "version": "1.0.0",
+    "description": "一个用于vite的代码链接工具，本人使用vite+vue3+vscode可以完成跳转",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "axios": "0.24.0"
+    },
+    "keywords": [
+        "code-link"
+    ],
+    "author": "chenjiayue",
+    "license": "ISC",
+    "peerDependencies": {
+        "vue": "^3.0.0"
+    }
+}
