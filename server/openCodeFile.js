@@ -17,24 +17,24 @@ function openCodeFileInVscode(path) {
         env: process.env,
     });
 }
-function os() {
-    "use strict";
-    const os = require("os");
-    const platform = os.platform();
-    switch (platform) {
-        case "darwin":
-            return "MacOSX";
-            break;
-        case "linux":
-            return "Linux";
-            break;
-        case "win32":
-            return "Windows";
-            break;
-        default:
-            return "无法确定操作系统!";
-    }
-}
+// function os() {
+//     "use strict";
+//     const os = require("os");
+//     const platform = os.platform();
+//     switch (platform) {
+//         case "darwin":
+//             return "MacOSX";
+//             break;
+//         case "linux":
+//             return "Linux";
+//             break;
+//         case "win32":
+//             return "Windows";
+//             break;
+//         default:
+//             return "无法确定操作系统!";
+//     }
+// }
 export function openCodeFile(path) {
     // console.log(decodeURIComponent(path));
     if (serverConfig.editor === "vscode") {

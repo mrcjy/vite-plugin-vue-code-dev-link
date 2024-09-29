@@ -1,7 +1,8 @@
 {
     "name": "vite-plugin-vue-code-dev-link",
-    "version": "1.0.0",
+    "version": "1.1.2",
     "description": "一个用于vite的代码链接工具，本人使用vite+vue3+vscode可以完成跳转",
+    "type": "module",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"

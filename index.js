@@ -1,9 +1,5 @@
-const viteCodeLinkServer = require("./server");
-const viteCodeLinkClient = require("./client");
-const viteCodeLinkLoader = require("./loader");
+import viteCodeLinkServer from "./server/index.js";
+import viteCodeLinkLoader from "./loader/index.js";
 
-export default {
-    viteCodeLinkServer,
-    viteCodeLinkClient,
-    viteCodeLinkLoader,
-};
+export const codeLinkServer = viteCodeLinkServer;
+export const codeLinkLoader = viteCodeLinkLoader;
